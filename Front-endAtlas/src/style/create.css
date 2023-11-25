@@ -1,0 +1,9 @@
+
+.Auth-form-content-create{
+
+}
+
+.CreateMain{
+    display: flex;
+    flex-direction: row;
+}

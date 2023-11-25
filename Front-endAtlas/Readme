@@ -1,0 +1,134 @@
+basic start for git repo:
+{
+    echo "# good_start" >> README.md
+    git init
+    git add README.md
+    git commit -m "first commit"
+    git branch -M main
+    git remote add origin https://github.com/alkosmas92/good_start.git
+    git push -u origin main
+ --if you want add all: git add --all
+ -- status: git status 
+}
+
+
+1 step: npm i 
+
+2 step (prettierrc): create prettierrc and add {} 
+2.1 ( prettierrc):  
+             inside script put "scripts": 
+                    {
+                    "format": "prettier --write \"src/**/*.{js,jsx}\""
+                    }
+2.3(prettierrc) : npm run format
+
+3 (eslint) : npm install -D eslint@8.8.0 eslint-config-prettier@8.3.0
+3.1 (eslint) : Create this file called .eslintrc.json
+3.2 (eslint) : put inside the .json:
+
+  {
+    "extends": ["eslint:recommended", "prettier"],
+    "plugins": [],
+    "parserOptions": {
+        "ecmaVersion": 2022,
+        "sourceType": "module",
+        "ecmaFeatures": {
+        "jsx": true
+        }
+    },
+    "env": {
+        "es6": true,
+        "browser": true,
+        "node": true
+    }
+  }
+
+3.3 (eslint) : inside script put "scripts": 
+            {
+            "format": "prettier --write \"src/**/*.{js,jsx}\""
+            }
+
+3.3 (eslint run) :  npm run lint -- --debug
+3.3 (eslint run) :  We can use our fix trick this way: npm run lint -- --fix.
+
+4 (gitignore) : 1.  initialize your project as a git repo with git init in the root of your project
+                2.create a .gitignore at the root of your project to ignore the stuff we don't want to commit. Go ahead and put this in there:
+
+                node_modules
+                .parcel-cache/
+                dist/
+                .env
+                .DS_Store
+                coverage/
+                .vscode/
+
+5 (parcel): 1. npm install -D parcel@2.2.1
+            2. Now inside of your package.json put:
+                "scripts" {
+                "dev": "parcel src/index.html"
+                }
+            3. Instead, it'd be better if we could pull our dependencies down from npm and include it in our bundle. Let's do that now.
+               Run:  npm install react@17.0.2 react-dom@17.0.2.
+               This will pull React and ReactDOM down from npm and put it in your node_modules directory. 
+               Now instead of loading them from unpkg, we can tell Parcel to include them in your main bundle.
+            4.  Replace the App.js import with <script type="module" src="./App.js"></script>.
+
+6. (babel) : Babel transforms your JS code from futuristic code to code that is understandable by older browsers. Via a package called browserslist (which Parcel installed for you) you can Babel what browsers to target.
+            1. In your package.json, add a new top level field called browserslist (notice the s, browserslist):
+
+            {
+              …
+              "browserslist": [
+                "last 2 Chrome versions"
+              ]
+            }
+
+7. (ESLint + React)
+
+        1. Run this: npm install -D eslint-plugin-import@2.25.4 eslint-plugin-jsx-a11y@6.5.1 eslint-plugin-react@7.28.0
+
+        2. Update your .eslintrc.json to:
+
+        {
+        "extends": [
+            "eslint:recommended",
+            "plugin:import/errors",
+            "plugin:react/recommended",
+            "plugin:jsx-a11y/recommended",
+            "prettier"
+        ],
+        "rules": {
+            "react/prop-types": 0,
+            "react/react-in-jsx-scope": 0
+        },
+        "plugins": ["react", "import", "jsx-a11y"],
+        "parserOptions": {
+            "ecmaVersion": 2022,
+            "sourceType": "module",
+            "ecmaFeatures": {
+            "jsx": true
+            }
+        },
+        "env": {
+            "es6": true,
+            "browser": true,
+            "node": true
+        },
+        "settings": {
+            "react": {
+            "version": "detect"
+            }
+        }
+        }
+    3. 
+        1. The import plugin helps ESLint catch common bugs around imports, exports, and modules in general.
+        2. jsx-a11y catches many bugs around accessibility that can accidentally arise using React, like not having an alt attribute on an img tag.
+        3. react is mostly common React bugs like not calling one of your props children.
+        4. eslint-plugin-react now requires you to inform of it what version of React you're using. We're telling it here to look at the package.json to figure it out.
+        5. "react/react-in-jsx-scope": 0 is new since you used to have to import React everywhere but now with the recent revision of React you don't need to.
+        6.Prop types allow you to add runtime type props to a component. In general if you're interested in doing that just use TypeScript.
+
+
+
+
+

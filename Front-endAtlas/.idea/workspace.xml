@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="fe371178-553e-4a9c-9cb8-ab6fdc7deb2f" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../Back-end Atlas/pkg/functions/functions.go" beforeDir="false" afterPath="$PROJECT_DIR$/../Back-end Atlas/pkg/functions/functions.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Back-end Atlas/pkg/middleware/handlers.go" beforeDir="false" afterPath="$PROJECT_DIR$/../Back-end Atlas/pkg/middleware/handlers.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Back-end Atlas/pkg/router/router.go" beforeDir="false" afterPath="$PROJECT_DIR$/../Back-end Atlas/pkg/router/router.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Front-endAtlaslast/Front-endAtlas" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Companies/GetCompanyRequestsInterships.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Companies/GetCompanyRequestsInterships.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Home/Home.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Home/Home.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Home/MenuCompany.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Home/MenuCompany.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Home/MenuStudent.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Home/MenuStudent.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Intership/IntershipNolink.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Intership/IntershipNolink.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Intership/createIntership.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Intership/createIntership.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Intership/getCompanyRequestsIntership.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Intership/getCompanyRequestsIntership.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Intership/getCompanySaveInterships.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Intership/getCompanySaveInterships.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Intership/getIntership.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Intership/getIntership.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Intership/getOnlineInterships.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Intership/getOnlineInterships.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Intership/getSavedInterships.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Intership/getSavedInterships.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Intership/getaAcceptedInterships.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Intership/getaAcceptedInterships.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Intership/getallIntershipsByEmployer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Intership/getallIntershipsByEmployer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Intership/intership.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Intership/intership.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Intership/search.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Intership/search.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Intership/submitSearch.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Intership/submitSearch.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/SearchAndInternship.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/SearchAndInternship.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Student/CheckRelasionship.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Student/CheckRelasionship.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Student/GetCompanyIntershipRequestStudent.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Student/GetCompanyIntershipRequestStudent.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Student/IntershipRequest.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Student/IntershipRequest.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Student/IntershipSave.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Student/IntershipSave.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Student/mathed.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Student/mathed.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Student/student.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Student/student.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/functions/paginate.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/functions/paginate.js" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2KSodbNGj6UgszFAIt87bsc8bpK" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/alexkosmasnew/Golandmyproject/ATLAS/Front-endAtlas&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;prettierjs.PrettierConfiguration.Package&quot;: &quot;/home/alexkosmasnew/Downloads/Front-endAtlas/node_modules/prettier&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;/snap/webstorm/294/plugins/javascript-impl/jsLanguageServicesImpl/external&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/images" />
+      <recent name="$PROJECT_DIR$/src/components" />
+      <recent name="$PROJECT_DIR$/src/components/Intership" />
+      <recent name="$PROJECT_DIR$/src/components/Student" />
+      <recent name="$PROJECT_DIR$/src/components/Companies" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/style" />
+      <recent name="$PROJECT_DIR$/src/components/Student" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="fe371178-553e-4a9c-9cb8-ab6fdc7deb2f" name="Changes" comment="" />
+      <created>1673977432923</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1673977432923</updated>
+      <workItem from="1673977434001" duration="2781000" />
+      <workItem from="1673987160105" duration="6257000" />
+      <workItem from="1674060820787" duration="14660000" />
+      <workItem from="1674106497473" duration="14199000" />
+      <workItem from="1674150240019" duration="12281000" />
+      <workItem from="1674219060005" duration="8435000" />
+      <workItem from="1674232271314" duration="24729000" />
+      <workItem from="1674304494333" duration="24299000" />
+      <workItem from="1674329380563" duration="178000" />
+      <workItem from="1674415485974" duration="633000" />
+      <workItem from="1674725551556" duration="468000" />
+      <workItem from="1674727014063" duration="5436000" />
+      <workItem from="1674762118527" duration="5098000" />
+      <workItem from="1674823593295" duration="165000" />
+      <workItem from="1675016257734" duration="6870000" />
+      <workItem from="1675113919786" duration="1180000" />
+      <workItem from="1675157146523" duration="33000" />
+      <workItem from="1675157205010" duration="3000" />
+      <workItem from="1675778121638" duration="9428000" />
+      <workItem from="1675932850044" duration="111000" />
+      <workItem from="1675934166600" duration="648000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/components/Companies/createCompany.js</url>
+          <line>83</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/node_modules/react-router/dist/lib/components.d.ts</url>
+          <line>50</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

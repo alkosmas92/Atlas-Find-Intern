@@ -1,0 +1,52 @@
+.Mainhome{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.Search{
+    display: flex;
+    flex-direction: row;
+    gap: 71px;
+}
+
+.Label{
+    font-family: var(--mono);
+    font-size: 80%;
+    padding: 4rem 1rem;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+input{
+    gap:3px;
+    padding: 10px;
+}
+.FormStyle{
+    display: flex;
+    flex-direction: row;
+    gap: 2px;
+
+}
+.SearchForm{
+    display: flex;
+}
+
+.Label{
+    gap: 4px;
+}
+
+.MainSubmit{
+    margin: 16px;
+    gap: 2px;
+}
+.MainSearch{
+  gap:2px;
+
+}
+

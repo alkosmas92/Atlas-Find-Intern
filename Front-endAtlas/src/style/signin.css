@@ -1,0 +1,60 @@
+.Auth-form-container{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    place-content: space-evenly;
+}
+
+.Auth-form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.buttonContinue {
+    background-color: var(--magenta);
+    color: white;
+    padding: 1rem;
+    border-radius: 5px;
+    text-decoration: none;
+    font-family: var(--mono);
+}
+
+.Signbutton{
+    margin-top: 30px;
+    display: flex;
+    gap: 20px;
+}
+
+.CreateMain{
+    display: flex;
+    flex-direction: row;
+    place-content: space-between
+}
+.Auth-form-content-create{
+    display: flex;
+    flex-direction: column;
+}
+
+.Create{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.Submit{
+    margin-top: 20px;
+    justify-content: flex-end;
+
+    display: flex;
+    margin-bottom: 30px;
+}
+.OnlineSave{
+    display: flex;
+    flex-direction: row;
+}
