@@ -47,7 +47,7 @@ Run:
      1. ``` cd Back-end Atlas ```
      
 
-     2. ```go run main.go ```
+     2. ``` go run main.go ```
 
 
 #Front end
