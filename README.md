@@ -53,9 +53,9 @@ Run:
 I use Javascript and React.js with Parcel bundler in order to create the Front-End side. Inside the client, I have a directory src which is the main part of my code. The main contents of the src directory are my components Internship, Student, Companies, and Home which create the main part of my app interface with necessary style and data fetches. In addition, the scr directory has CSS in the directory style. Also, I have the function paginate(https://www.zacfukuda.com/blog/pagination-algorithm) inside the functions' directory.
 
 if you have clone the repository: ##Run:
- cd client
- npm install
- npm run dev
+```bash cd client ```
+```bash npm install ```
+```bash npm run dev ```
 run in your Browser: http://localhost:1234
 
 Dependencies : download Node
