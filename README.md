@@ -45,6 +45,7 @@ DATABASE: postgres, you need to create a database and import your credentials fr
 
 Run:
      1. ```bash cd Back-end Atlas ```
+     
 
      2. ```bash go run main.go ```
 
@@ -54,8 +55,11 @@ I use Javascript and React.js with Parcel bundler in order to create the Front-E
 
 if you have clone the repository: ##Run:
 ```bash cd client ```
+
 ```bash npm install ```
+
 ```bash npm run dev ```
+
 run in your Browser: http://localhost:1234
 
 Dependencies : download Node
