@@ -15,6 +15,7 @@ handlers.go
 -POST έχουν φτιαχτεί CreateStudent που δημιουργεί έναν φοιτητή , CreateCompany που δημιουργεί μια εταιρεία , CreateIntership που δημιουργεί μια πρακτική άσκηση ,
 RelateIntershipWithStudent που δημιουργεί μια σχέση αποθήκευσης είτε αιτήματος μιας πρακτικής άσκησης με έναν φοιτητή ,SignInStudent ,SignInCompany που
 γίνεται η σύνδεση σε λογαριασμό .
+
 -GET έχουν φτιαχτεί GetAllSavedStudentIntership που ο φοιτητής παίρνει όλες τις αποθηκευμένες πρακτικές ασκήσεις , GetAllRequestedStudentIntership που ο φοιτητής 
 παίρνει όλες τις πρακτικές ασκήσεις που έχει στείλει αίτημα , GetAllAcceptedStudentIntership που ο φοιτητής παίρνειόλες τις πρακτικές ασκήσεις που τον έχουν
 αποδεχτεί , GetAllRejectedStudentIntership που ο φοιτητής παίρνει όλες τις πρακιτκές ασκήσεις που τον έχουν απορρίψει , GetIntership που επιστρέφεται μια πρακτική
@@ -25,10 +26,12 @@ RelateIntershipWithStudent που δημιουργεί μια σχέση απο�
 GetAllMatchedInterships που η εταιρεία παίρνει όλες τις πρακτικές ασκήσεις και τους φοιτητές που τους έχει κάνει αποδοχή και αυτοί κάναν αποδοχή πίσω ,
 GetAllWaitingInterships που η εταιρεία παίρνει όλες τις πρακτικές ασκήσεις και τους φοιτητές που τους έχει αποδεχτεί αλλά αυτοί δεν έχουν δώσει το τελικο οκ,
 GetStudentMatchedIntership, όπου οι φοιτητέ παίρνουν την αντιστοιχησμένη πρακτική τουε άσκηση .
+
 -UPDATE έχουν φτιαχτεί  UpdateStudentIntership ο φοιτητήε επεξεργάζεται μια αποθηκευμένη πρακτική του άσκηση , UpdateCompanyIntership η εταιρεία επεξεργάζεται μια
 αποθηκευμένη πρακτική άσκηση , UpdateCompanyAcceptStudentIntership η εταιρεία αποδέχεται έναν φοιτητή σε μια πρακτικά άσκηση , UpdateCompanyRejectStudentIntership
 η εταιρεία απορρίπτει έναν φοιτητή απο μια πρακτική άσκηση,UpdateStudentAcceptDeal ο φοιτητής αποδέχεται από μεριάς του το ιδιωτικό συμφωνιτικό ,
 UpdateStudentRejectDeal ο φοιτητής απορρίπτει το ιδιωτικό συμφωνιτικό 
+
 -DELETE CompanyDeleteIntership η εταιρεία διαγράφει μια αποθηκευμένη πρακτική άσκηση , StudentDeleteIntership ο φοιτητής διαγράφει μια αποθηκευμένη πρακτική άσκηση
 
 -Το αρχείο functions.go έχει όλες τις συναρτήσεις που υλοποιούν τα παραπάνω αιτήματα και τα επιστρέφει στο αρχείο handlers.go . Οι συναρτήσεις επικοινωνούν με την βάση
@@ -38,14 +41,16 @@ UpdateStudentRejectDeal ο φοιτητής απορρίπτει το ιδιωτ
 μια δομή
 για την σχέση του φοιτητή με πρακτική άσκηση μια δομή για την πρακτική άσκηση και μια δομή για επιστροφή αποτελεσμάτων. 
 
-DATABASE: postgres, you need create database and you have to  import your creadential  from your database in order to have connect golang backend with postgres server.
+DATABASE: postgres, you need to create a database and import your credentials from your database to connect the Golang backend with the Postgres server.
 
-Run: 1. cd Back-end Atlas
-2. go run main.go
+Run:
+     1. ```bash cd Back-end Atlas ```
+
+     2. ```bash go run main.go ```
 
 
 #Front end
-I use Javascript and React.js with Parcel bundler in order to create the Front-End side. Inside the client, I have a directory src which is the main part of my code. The main contains of src directory is my components Internship, Student, Companies, Home which create the main part of my app interface with necessary style and fetches of data. In addition, the scr directory have cssin the directory style. Also, I have the function paginate(https://www.zacfukuda.com/blog/pagination-algorithm) inside the functions' directory.
+I use Javascript and React.js with Parcel bundler in order to create the Front-End side. Inside the client, I have a directory src which is the main part of my code. The main contents of the src directory are my components Internship, Student, Companies, and Home which create the main part of my app interface with necessary style and data fetches. In addition, the scr directory has CSS in the directory style. Also, I have the function paginate(https://www.zacfukuda.com/blog/pagination-algorithm) inside the functions' directory.
 
 if you have clone the repository: ##Run:
  cd client
